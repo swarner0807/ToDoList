@@ -19,6 +19,7 @@
 		1DF11EAC196F78D800CCC53C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF11E94196F78D800CCC53C /* UIKit.framework */; };
 		1DF11EB4196F78D800CCC53C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1DF11EB2196F78D800CCC53C /* InfoPlist.strings */; };
 		1DF11EB6196F78D800CCC53C /* ToDoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF11EB5196F78D800CCC53C /* ToDoListTests.m */; };
+		1DF11EC0196F7D0300CCC53C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DF11EBF196F7D0300CCC53C /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		1DF11EB1196F78D800CCC53C /* ToDoListTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToDoListTests-Info.plist"; sourceTree = "<group>"; };
 		1DF11EB3196F78D800CCC53C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1DF11EB5196F78D800CCC53C /* ToDoListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoListTests.m; sourceTree = "<group>"; };
+		1DF11EBF196F7D0300CCC53C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			children = (
 				1DF11E9F196F78D800CCC53C /* XYZAppDelegate.h */,
 				1DF11EA0196F78D800CCC53C /* XYZAppDelegate.m */,
+				1DF11EBF196F7D0300CCC53C /* Main.storyboard */,
 				1DF11EA2196F78D800CCC53C /* Images.xcassets */,
 				1DF11E97196F78D800CCC53C /* Supporting Files */,
 			);
@@ -220,6 +223,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DF11EC0196F7D0300CCC53C /* Main.storyboard in Resources */,
 				1DF11E9B196F78D800CCC53C /* InfoPlist.strings in Resources */,
 				1DF11EA3196F78D800CCC53C /* Images.xcassets in Resources */,
 			);
